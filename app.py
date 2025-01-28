@@ -30,7 +30,7 @@ def load_data():
     
 # Cargar datos
 data = load_data()
-
+#added a change to track it in the git history
 # Graficar serie
 def plot_series(data, initial_date, proy):
     data_plot = data.loc[initial_date:]
